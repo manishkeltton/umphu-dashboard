@@ -1,42 +1,115 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
 }
 
-a {
-  color: inherit;
+.body {
+  display: flex;
+  /* background-image: url("../component/ic_board.png"); */
+  background-color: #865d36;
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #865d36, #fcfcf7);
+}
+
+.header {
+  background-color: #2d78a1;
+  position: fixed;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+  width: 100%;
+  box-shadow: 0 3px 5px #393f484d;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title span {
+  margin: 0 15%;
+  font-weight: normal;
+}
+
+.left-nav {
+  width: 20%;
+  display: flex;
+}
+
+.left-nav span,
+img {
+  margin-right: 2%;
+}
+.left-nav img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+.header a {
+  color: #ffffff;
+  cursor: pointer;
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.vertical-center h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-bottom: 8px;
+}
+
+.vertical-center a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400px;
+  cursor: pointer;
+}
+
+.vertical-center a:link,
+.vertical-center a:visited {
+  background-color: white;
+  color: #2d78a1;
+  border: 2px solid #2d78a1;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.vertical-center a:hover,
+.vertical-center a:active {
+  background-color: #2d78a1;
+  color: white;
 }
