@@ -8,7 +8,8 @@ function App() {
       "
       >
         <div className="left-nav">
-          <img src={`${awsUrl}/logo.png`} /> <span>Ludo Umphu</span>
+          <img src={`https://phume.s3.ap-south-1.amazonaws.com/logo.png`} />{" "}
+          <span>Ludo Umphu</span>
         </div>
         <span>Help</span>
       </header>
@@ -21,7 +22,11 @@ function App() {
       </div>
       <div className="vertical-center">
         <h1>Download Our Ludo Umphu App</h1>
-        <a href={`${awsUrl}/app-release.apk`} target="_blank" download>
+        <a
+          href={`https://phume.s3.ap-south-1.amazonaws.com/app-release.apk`}
+          target="_blank"
+          download
+        >
           Download App
         </a>
       </div>
