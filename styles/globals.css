@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "proxima-nova", sans-serif;
-  font-weight: 100;
 }
 
 .body {
@@ -16,6 +15,7 @@
   background-repeat: no-repeat;
   color: #ffffff;
   background-image: linear-gradient(to bottom, #865d36, #fcfcf7);
+  opacity: 0.8
 }
 
 .header {
@@ -68,13 +68,15 @@
   display: flex;
 }
 
-.left-nav span,
-img {
-  margin-right: 2%;
+.left-nav span {
+  display: flex;
+  align-items: center;
 }
+
 .left-nav img {
-  width: 20px;
+  width: 43px;
   border-radius: 50%;
+  margin-right: 5%;
 }
 
 .header a {
