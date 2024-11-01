@@ -8,13 +8,13 @@
 .body {
   display: flex;
   /* background-image: url("../component/ic_board.png"); */
-  background-color: #865d36;
+  background-color: #863651;
   position: relative;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
-  background-image: linear-gradient(to bottom, #865d36, #fcfcf7);
+  background-image: linear-gradient(to bottom, #e9d4db, #863651);
   opacity: 0.8
 }
 

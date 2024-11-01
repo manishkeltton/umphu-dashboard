@@ -22,7 +22,7 @@ function App() {
       <div className="vertical-center">
         <h1>Download Our Ludo Umphu App</h1>
         <a href={`${awsUrl}/app-release.apk`} target="_blank" download>
-          Download Link
+          Download App
         </a>
       </div>
     </div>
