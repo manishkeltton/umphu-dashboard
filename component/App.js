@@ -14,14 +14,14 @@ function App() {
         <span>Help</span>
       </header>
       <div className="title">
-        <h2>Welcome to Ludo Umphu</h2>
+        <div>Welcome to Ludo Umphu</div>
         <span>
           Play offline and online ludo without interruption, win coins
           participate in event and get a chance to win exciting prizes.
         </span>
       </div>
       <div className="vertical-center">
-        <h1>Download Our Ludo Umphu App</h1>
+        <div className="btn-title">Download Our Ludo Umphu App</div>
         <a
           href={`https://phume.s3.ap-south-1.amazonaws.com/app-release.apk`}
           target="_blank"
