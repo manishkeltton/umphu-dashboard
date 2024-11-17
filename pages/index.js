@@ -1,32 +1,25 @@
-import App from "@/component/App";
+import HomePage from "@/components/Home";
 import Head from "next/head";
 
 export default function Home() {
+  const url = "https://phume.s3.ap-south-1.amazonaws.com";
   return (
     <>
       <Head>
-        <title>Ludo Umphu</title>
-        <link
-          rel="icon"
-          href="https://phume.s3.ap-south-1.amazonaws.com/logo.png"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Somwall</title>
+        <link rel="icon" href={`${url}/logo.png`} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
           content="Play offline and online ludo without interruption, win coins
           participate in event and get a chance to win exciting prizes."
         />
-        <meta name="keywords" content="Umphu App" />
-        <meta
-          property="og:image"
-          content={`https://phume.s3.ap-south-1.amazonaws.com/logo.png`}
-        />
-        <link
-          rel="canonical"
-          href={`https://phume.s3.ap-south-1.amazonaws.com/app-release.apk`}
-        />
+        <meta name="keywords" content="Somwall App" />
+        <meta property="og:image" content={`${url}/logo.png`} />
+        <link rel="canonical" href={`${url}/app-release.apk`} />
       </Head>
-      <App />
+
+      <HomePage />
     </>
   );
 }
