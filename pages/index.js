@@ -1,8 +1,11 @@
 import HomePage from "@/components/Home";
 import Head from "next/head";
 
+// const awsUrl=process.env.AWS_URL;
+
 export default function Home() {
   const url = "https://phume.s3.ap-south-1.amazonaws.com";
+
   return (
     <>
       <Head>
