@@ -19,9 +19,10 @@ export default function HomePage() {
           </div>
           <div className="max-lg:px-[1rem] max-md:px-2.5 max-sm:px-2 text-nowrap flex rounded-full bg-[#2d78a1] border-none w-[50%] justify-center items-center text-[#ffffff] space-2 hover:bg-[#2d78a1]/[0.8] ">
             <a
-              href={`${awsUrl}/app-release.apk`}
-              target="_blank"
-              download
+              // href={`${awsUrl}/app-release.apk`}
+              // target="_blank"
+              href="#"
+              // download
               className="flex w-full justify-center items-center lg:text-[18px] max-md:text-[15px] max-sm:text-[12px] max-lg:leading-[20px] max-md:leading-[16px] max-sm:leading-[13px]  px-3 py-2 rounded-full text-sm font-medium"
             >
               Download App
