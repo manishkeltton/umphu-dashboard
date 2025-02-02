@@ -19,3 +19,7 @@ body {
 .slick-dots li button::before {
   color: #2d78a1 !important;
 }
+
+ul li {
+  margin-left: 20px;
+}

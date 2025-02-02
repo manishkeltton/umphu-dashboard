@@ -7,197 +7,119 @@ const PrivacyPolicy = () => {
       <Head>
         <title>Privacy Policy</title>
       </Head>
-      <div className="lg:py-4 md:py-3 max-sm:py-2 lg:px-[4rem] md:px-[3rem] max-sm:px-[1rem]">
-        <strong>Privacy Policy</strong>
+      <div className="lg:py-4 text-[#000000]/[.6] md:py-3 max-sm:py-2 lg:px-[4rem] md:px-[3rem] max-sm:px-[1rem]">
+        <strong>Privacy Policy for Zysom Company</strong>
+        <div className="my-[20px]">
+          <strong>Effective Date : </strong>
+          <span>{"2nd Feb 2025"}</span>
+        </div>
         <p>
-          This privacy policy applies to the javaSpringBoot app (hereby referred
-          to as "Application") for mobile devices that was created by Manish
-          kumar (hereby referred to as "Service Provider") as a Free service.
-          This service is intended for use "AS IS".
+          Welcome to Zysom Ludo App ("we," "our," or "us"). This Privacy Policy
+          explains how we collect, use, and protect your personal information
+          when you use our mobile application ("App"). By using our App, you
+          agree to the practices described in this policy.
         </p>
         <br />
-        <strong>Information Collection and Use</strong>
-        <p>
-          The Application collects information when you download and use it.
-          This information may include information such aspect
+        <strong>1. Information Collection and Use</strong>
+        <p className="ml-[18px]">
+          We may collect the following types of information:
         </p>
-        <ul>
-          <li>Your device's Internet Protocol address (e.g. IP address)</li>
+        <ul className="list-disc ml-[18px]">
           <li>
-            The pages of the Application that you visit, the time and date of
-            your visit, the time spent on those pages
+            <span className="font-semibold">Personal Information: </span>{" "}
+            <span>
+              If you create an account, we may collect your name, email address,
+              and other details you provide.
+            </span>
           </li>
-          <li>The time spent on the Application</li>
-          <li>The operating system you use on your mobile device</li>
+          <li>
+            <span className="font-semibold">Game Data: </span>
+            <span>
+              Information related to your gameplay, scores, rankings, and
+              achievements.
+            </span>
+          </li>
+          <li>
+            <span className="font-semibold">Usage Data: </span>
+            <span>
+              How you interact with our App, including session duration,
+              features used, and game performance.
+            </span>
+          </li>
         </ul>
         <p></p>
         <br />
         <p>
-          The Application does not gather precise information about the location
-          of your mobile device.
+          <strong>2. How We Use Your Information</strong>
         </p>
-        <div>
-          <p>
-            The Application collects your device's location, which helps the
-            Service Provider determine your approximate geographical location
-            and make use of in below ways:
-          </p>
-          <ul>
-            <li>
-              Geolocation Services: The Service Provider utilizes location data
-              to provide features such as personalized content, relevant
-              recommendations, and location-based services.
-            </li>
-            <li>
-              Analytics and Improvements: Aggregated and anonymized location
-              data helps the Service Provider to analyze user behavior, identify
-              trends, and improve the overall performance and functionality of
-              the Application.
-            </li>
-            <li>
-              Third-Party Services: Periodically, the Service Provider may
-              transmit anonymized location data to external services. These
-              services assist them in enhancing the Application and optimizing
-              their offerings.
-            </li>
+        <div className="ml-[18px]">
+          <p>We use the information we collect for the following purposes:</p>
+          <ul className="list-disc">
+            <li>Enhance and personalize your gaming experience.</li>
+            <li>Improve our services, features, and performance.</li>
+            <li>Prevent fraud and ensure a fair gaming environment.</li>
+            <li>Send important updates, and service-related notifications.</li>
           </ul>
         </div>
         <br />
-        <p>
-          The Service Provider may use the information you provided to contact
-          you from time to time to provide you with important information,
-          required notices and marketing promotions.
+        <strong>3. Sharing Your Information</strong>
+        <p className="ml-[18px]">
+          We do not share your personal information to any other.
         </p>
-        <br />
-        <p>
-          For a better experience, while using the Application, the Service
-          Provider may require you to provide us with certain personally
-          identifiable information, including but not limited to Email, Name,
-          mobile, countryname. The information that the Service Provider request
-          will be retained by them and used as described in this privacy policy.
-        </p>
-        <br />
-        <strong>Third Party Access</strong>
-        <p>
-          Only aggregated, anonymized data is periodically transmitted to
-          external services to aid the Service Provider in improving the
-          Application and their service. The Service Provider may share your
-          information with third parties in the ways that are described in this
-          privacy statement.
-        </p>
-        <div>
-          <br />
-          <p>
-            Please note that the Application utilizes third-party services that
-            have their own Privacy Policy about handling data. Below are the
-            links to the Privacy Policy of the third-party service providers
-            used by the Application:
-          </p>
-          <ul>
-            <li>
-              <a
-                href="https://www.google.com/policies/privacy/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Google Play Services
-              </a>
-            </li>
-          </ul>
-        </div>
-        <br />
-        <p>
-          The Service Provider may disclose User Provided and Automatically
-          Collected Information:
-        </p>
-        <ul>
-          <li>
-            as required by law, such as to comply with a subpoena, or similar
-            legal process;
-          </li>
-          <li>
-            when they believe in good faith that disclosure is necessary to
-            protect their rights, protect your safety or the safety of others,
-            investigate fraud, or respond to a government request;
-          </li>
-          <li>
-            with their trusted services providers who work on their behalf, do
-            not have an independent use of the information we disclose to them,
-            and have agreed to adhere to the rules set forth in this privacy
-            statement.
-          </li>
-        </ul>
         <p></p>
         <br />
-        <strong>Opt-Out Rights</strong>
-        <p>
-          You can stop all collection of information by the Application easily
-          by uninstalling it. You may use the standard uninstall processes as
-          may be available as part of your mobile device or via the mobile
-          application marketplace or network.
-        </p>
-        <br />
-        <strong>Data Retention Policy</strong>
-        <p>
-          The Service Provider will retain User Provided data for as long as you
-          use the Application and for a reasonable time thereafter. If you'd
-          like them to delete User Provided Data that you have provided via the
-          Application, please contact them at manishop6@gmail.com and they will
-          respond in a reasonable time.
-        </p>
-        <br />
-        <strong>Children</strong>
-        <p>
-          The Service Provider does not use the Application to knowingly solicit
-          data from or market to children under the age of 13.
-        </p>
-        <div>
-          <br />
-          <p>
-            The Application does not address anyone under the age of 13. The
-            Service Provider does not knowingly collect personally identifiable
-            information from children under 13 years of age. In the case the
-            Service Provider discover that a child under 13 has provided
-            personal information, the Service Provider will immediately delete
-            this from their servers. If you are a parent or guardian and you are
-            aware that your child has provided us with personal information,
-            please contact the Service Provider (manishop6@gmail.com) so that
-            they will be able to take the necessary actions.
-          </p>
+        {/* <strong>5.Your Rights and Choices</strong>
+        <ul className="list-disc">
+          <li>
+            <div>Access and Correction:</div>
+            <div>
+              You can request access to or correction of your personal
+              information by contacting us.
+            </div>
+          </li>
+          <li>
+            <div>Delete Your Account:</div>
+            <div>
+              You can request to delete your account and associated data by
+              contacting us at contact@zysom.com.
+            </div>
+          </li>
+        </ul>
+        <br /> */}
+        <strong>4. Data Security</strong>
+        <div className="ml-[18px]">
+          We implement industry-standard security measures to protect your
+          information from unauthorized access, alteration, or destruction.
         </div>
         <br />
-        <strong>Security</strong>
-        <p>
-          The Service Provider is concerned about safeguarding the
-          confidentiality of your information. The Service Provider provides
-          physical, electronic, and procedural safeguards to protect information
-          the Service Provider processes and maintains.
-        </p>
+        <strong>5. Children’s Privacy</strong>
+        <div className="ml-[18px]">
+          While our Products and Services may be played and/or visited by
+          children, we do not knowingly collect or process any Personal
+          Information from children under the age of 13 and hereby specifically
+          prohibit any user under the age of 13 from providing us with any
+          Personal Information. If you are a parent of a child under 13 years of
+          age and you believe your child has provided us with Personal
+          Information, please uninstall application from children's system.
+        </div>
         <br />
-        <strong>Changes</strong>
-        <p>
+        <strong>6. Changes to This Policy</strong>
+        <p className="ml-[18px]">
           This Privacy Policy may be updated from time to time for any reason.
-          The Service Provider will notify you of any changes to the Privacy
-          Policy by updating this page with the new Privacy Policy. You are
-          advised to consult this Privacy Policy regularly for any changes, as
-          continued use is deemed approval of all changes.
+          We will notify you of any changes by posting the updated policy on
+          this page and updating the "Effective Date". You are advised to
+          consult this Privacy Policy regularly for any changes, as continued
+          use is deemed approval of all changes.
         </p>
         <br />
-        <p>This privacy policy is effective as of 2024-12-22</p>
-        <br />
-        <strong>Your Consent</strong>
-        <p>
-          By using the Application, you are consenting to the processing of your
-          information as set forth in this Privacy Policy now and as amended by
-          us.
-        </p>
-        <br />
-        <strong>Contact Us</strong>
-        <p>
-          If you have any questions regarding privacy while using the
-          Application, or have questions about the practices, please contact the
-          Service Provider via email at manishop6@gmail.com.
-        </p>
+
+        <strong>7. Contact Us</strong>
+        <div className="ml-[18px]">
+          If you have any questions about these Privacy Policy, please contact
+          us at:
+        </div>
+        <div className="ml-[18px]">contact@zysom.com</div>
+        <div className="ml-[18px]">Patna, Bihar, 800025</div>
       </div>
     </>
   );

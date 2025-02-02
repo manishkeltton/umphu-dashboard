@@ -2,10 +2,10 @@
 import dotenv from "dotenv";
 dotenv.config();
 const nextConfig = {
-  // reactStrictMode: true,
+  reactStrictMode: true,
   output: "export",
-  trailingSlash: true,
-  distDir: "build",
+  // trailingSlash: true,
+  // distDir: "build",
   // assetPrefix: "https://d3kwo4p00cmlt.cloudfront.net",
 };
 
